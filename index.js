@@ -2,8 +2,8 @@ $(document).ready(function searchRepositories (){
 $.ajax({
 url:"https://api.github.com",
 data: data,
-success: success;
-dataType: "jsonp"
+success: success,
+dataType: "jsonp",
 });
 });
 
