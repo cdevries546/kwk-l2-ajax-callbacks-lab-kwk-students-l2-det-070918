@@ -1,7 +1,7 @@
 $(document).ready(function searchRepositories (){
 $.ajax({
   type: "GET",
-  url: "https://api.meetup.com/2/cities",
+  url: "https://searchRepositories.com",
   success: function(data){
     $('text').text(JSON.stringify(data));
     
