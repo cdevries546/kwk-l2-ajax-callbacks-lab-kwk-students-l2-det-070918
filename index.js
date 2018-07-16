@@ -1,9 +1,9 @@
 $(document).ready(function (){
   $.ajax({
   type: "GET",
-  url: "https://a",
+  url: "https://searchRepositories.com",
   success: function(data){
-    $('text').text(JSON.stringify(data));
+    $('searchTerms').text(JSON.stringify(data));
     
   }, 
   dataType: 'jsonp',
