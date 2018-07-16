@@ -11,3 +11,5 @@ $.get( "ajax/test.html", function( data ) {
   $( ".result" ).html( data );
   alert( "Load was performed." );
 });
+
+// <script src="https://code.jquery.com/jquery-2.1.1.min.js"</script>
