@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(function searchRepositories (){
   $.ajax({
   type: "GET",
   url: "https://searchRepositories.com",
