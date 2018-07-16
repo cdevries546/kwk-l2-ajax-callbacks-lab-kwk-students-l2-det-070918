@@ -6,6 +6,6 @@ $(document).ready(function searchRepositories (){
     $('searchTerms').text(JSON.stringify(data));
     
   }, 
-  dataType: 'jsonp',
+  <div = result
 });
 });
