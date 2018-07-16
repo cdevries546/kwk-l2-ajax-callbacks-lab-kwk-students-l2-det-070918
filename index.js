@@ -1,11 +1,11 @@
 $(document).ready(function (){
-});
-$.ajax({
+  $.ajax({
   type: "GET",
-  url: "https://api.meetup.com/2/cities",
+  url: "https://a",
   success: function(data){
     $('text').text(JSON.stringify(data));
     
   }, 
   dataType: 'jsonp',
+});
 });
